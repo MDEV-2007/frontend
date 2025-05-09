@@ -10,12 +10,12 @@ body {
     background-color: #f5faff;
     color: #333;
     line-height: 1.6;
-    background-image: url(./background.png);
+    background-image: url(./media/background.png);
 }
 
 header {
     background-color: #fff;
-    background-image: url(./background.png);
+    background-image: url(./media/background.png);
     padding: 20px 40px;
     display: flex;
     justify-content: space-between;
@@ -858,7 +858,7 @@ nav ul li a:hover {
     color: white;
 }
 #footer {
-    background-image: url(./background.png);
+    background-image: url(./media/background.png);
     color: white;
     padding: 3rem 1rem;
     font-family: Arial, sans-serif;
