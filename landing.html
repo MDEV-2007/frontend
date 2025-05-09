@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo">M.D.V</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Dreamer & Developer</h1>
+        <p>Passionate software developer with expertise in Python, JavaScript, and modern web frameworks. Building the future, one line of code at a time.</p>
+        <div class="buttons">
+            <button class="primary-btn">View My Work</button>
+            <button class="secondary-btn">Get in Touch <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="scroll-down"></div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="video-section">
+                <img src="./photo_2025-05-09_09-23-47.jpg" alt="Thumbnail" class="thumbnail">
+                <div class="play-btn" onclick="openModal()"></div>
+                <div class="intro-text">Hi, I'm Murodulla - Passionate Developer & Dreamer</div>
+            </div>
+            <div class="info-section">
+                <h1>About Me</h1>
+                <p>I'm a highly motivated software developer with 2 years of IT experience. My journey in technology started with a passion for solving problems and creating innovative solutions.</p>
+                <p>I've been recognized for my academic excellence, winning a laptop prize at school, and I'm constantly working toward my goals of joining top tech companies like Google at KAIST or SNU.</p>
+                <div class="stats">
+                    <div class="stat-box">
+                        <h3>2+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>10+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1>My Projects</h1>
+        <p>Here are some of my recent projects that showcase my skills and expertise.</p>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="./img.jpg" alt="Project 1">
+                <div class="content">
+                    <h3>E-commerce Platform</h3>
+                    <p>A full-stack e-commerce platform built with Django and React.</p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>React</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                    <div class="buttons">
+                        <a href="#" class="code-btn">Code</a>
+                        <a href="#" class="demo-btn">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img.jpg" alt="Project 2">
+                <div class="content">
+                    <h3>AI Image Generator</h3>
+                    <p>AI-powered image generation tool using machine learning models.</p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>FastAPI</span>
+                        <span>Next.js</span>
+                    </div>
+                    <div class="buttons">
+                        <a href="#" class="code-btn">Code</a>
+                        <a href="#" class="demo-btn">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img.jpg" alt="Project 3">
+                <div class="content">
+                    <h3>Task Management App</h3>
+                    <p>A productivity app for managing tasks and projects.</p>
+                    <div class="tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>Express</span>
+                    </div>
+                    <div class="buttons">
+                        <a href="#" class="code-btn">Code</a>
+                        <a href="#" class="demo-btn">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h1>My Skills</h1>
+        <p>Here are the technologies and skills I've mastered throughout my journey.</p>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                    <span>90%</span>
+                </div>
+                <div class="skill">
+                    <span>React.js</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+                    <span>85%</span>
+                </div>
+                <div class="skill">
+                    <span>Next.js</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%"></div>
+                    </div>
+                    <span>80%</span>
+                </div>
+                <div class="skill">
+                    <span>HTML/CSS</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 95%"></div>
+                    </div>
+                    <span>95%</span>
+                </div>
+                <div class="skill">
+                    <span>Tailwind CSS</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                    <span>90%</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <div class="skill">
+                    <span>Python</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 95%"></div>
+                    </div>
+                    <span>95%</span>
+                </div>
+                <div class="skill">
+                    <span>Django</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                    <span>90%</span>
+                </div>
+                <div class="skill">
+                    <span>Django REST API</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+                    <span>85%</span>
+                </div>
+                <div class="skill">
+                    <span>FastAPI</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%"></div>
+                    </div>
+                    <span>80%</span>
+                </div>
+                <div class="skill">
+                    <span>Node.js</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%"></div>
+                    </div>
+                    <span>75%</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Data Science</h3>
+                <div class="skill">
+                    <span>Pandas</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+                    <span>85%</span>
+                </div>
+                <div class="skill">
+                    <span>NumPy</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%"></div>
+                    </div>
+                    <span>80%</span>
+                </div>
+                <div class="skill">
+                    <span>Keras</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%"></div>
+                    </div>
+                    <span>75%</span>
+                </div>
+                <div class="skill">
+                    <span>PyTorch</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 70%"></div>
+                    </div>
+                    <span>70%</span>
+                </div>
+                <div class="skill">
+                    <span>Data Visualization</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%"></div>
+                    </div>
+                    <span>80%</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Other</h3>
+                <div class="skill">
+                    <span>Git</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                    <span>90%</span>
+                </div>
+                <div class="skill">
+                    <span>Docker</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%"></div>
+                    </div>
+                    <span>75%</span>
+                </div>
+                <div class="skill">
+                    <span>CI/CD</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 70%"></div>
+                    </div>
+                    <span>70%</span>
+                </div>
+                <div class="skill">
+                    <span>Database Design</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+                    <span>85%</span>
+                </div>
+                <div class="skill">
+                    <span>Problem Solving</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 95%"></div>
+                    </div>
+                    <span>95%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="certificates">
+        <h1>My Certificates</h1>
+        <p>Certifications and awards that validate my skills and achievements.</p>
+        <div class="certificates-container">
+            <div class="certificate-card">
+                <img src="img.jpg" alt="Certificate 1">
+                <div class="content">
+                    <h3>Python Professional Certification</h3>
+                    <p>Python Institute</p>
+                    <p class="date">June 2023</p>
+                    <a href="#" target="_blank">View Certificate  <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="certificate-card">
+                <img src="img.jpg" alt="Certificate 2">
+                <div class="content">
+                    <h3>React Developer Certification</h3>
+                    <p>Meta</p>
+                    <p class="date">March 2023</p>
+                    <a href="#" target="_blank">View Certificate  <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="blog">
+        <h1>My Blog</h1>
+        <p>Sharing my thoughts, experiences, and knowledge about coding, data science, and personal growth.</p>
+        <div class="blog-container">
+            <div class="blog-card">
+                <img src="img.jpg" alt="Blog 1">
+                <div class="content">
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>WebSockets</span>
+                    </div>
+                    <h3>How I Built a Real-time Chat App with Django Channels</h3>
+                    <p class="date">April 15, 2023 | 8 min read</p>
+                    <p>Learn how I implemented WebSockets with Django Channels to create a responsive chat application with real-time updates.</p>
+                    <a href="#">Read More →</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="img.jpg" alt="Blog 2">
+                <div class="content">
+                    <div class="tags">
+                        <span>JavaScript</span>
+                        <span>React</span>
+                        <span>Web Development</span>
+                    </div>
+                    <h3>My Journey Learning React: Lessons and Best Practices</h3>
+                    <p class="date">March 2, 2023 | 6 min read</p>
+                    <p>Sharing my experience learning React, common pitfalls I encountered, and the best practices I've adopted along the way.</p>
+                    <a href="#">Read More →</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="img.jpg" alt="Blog 3">
+                <div class="content">
+                    <div class="tags">
+                        <span>Career</span>
+                        <span>Personal Growth</span>
+                    </div>
+                    <h3>From Bootcamp to Job Offer: My Developer Journey</h3>
+                    <p class="date">February 10, 2023 | 10 min read</p>
+                    <p>How I went from learning to code to landing my first developer job, with tips for aspiring developers on the same path.</p>
+                    <a href="#">Read More →</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="img.jpg" alt="Blog 4">
+                <div class="content">
+                    <div class="tags">
+                        <span>Data Science</span>
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                    </div>
+                    <h3>Getting Started with Data Science: A Beginner's Guide</h3>
+                    <p class="date">January 5, 2023 | 7 min read</p>
+                    <p>An introduction to data science for beginners, covering essential tools, libraries, and concepts to get started in the field.</p>
+                    <a href="#">Read More →</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="img.jpg" alt="Blog 4">
+                <div class="content">
+                    <div class="tags">
+                        <span>Data Science</span>
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                    </div>
+                    <h3>Getting Started with Data Science: A Beginner's Guide</h3>
+                    <p class="date">January 5, 2023 | 7 min read</p>
+                    <p>An introduction to data science for beginners, covering essential tools, libraries, and concepts to get started in the field.</p>
+                    <a href="#">Read More →</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="img.jpg" alt="Blog 4">
+                <div class="content">
+                    <div class="tags">
+                        <span>Data Science</span>
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                    </div>
+                    <h3>Getting Started with Data Science: A Beginner's Guide</h3>
+                    <p class="date">January 5, 2023 | 7 min read</p>
+                    <p>An introduction to data science for beginners, covering essential tools, libraries, and concepts to get started in the field.</p>
+                    <a href="#">Read More →</a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="view-all-btn">View All Articles</a>
+    </section>
+
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <p>Got a question or want to collaborate? Feel free to reach out!</p>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>uzbekcoders0706@gmail</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+998 (99) 393 30 07</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Fergana, Uzbekistan</span>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <div class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button onclick="alert('Message sent! (Note: This is a placeholder. Add actual form submission logic.)')">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="contain">
+            <div class="footer-logo">
+                <h2>M.D.V</h2>
+                <p>Building the future, one line of code at a time</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://github.com" aria-label="GitHub" class="social-link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://instagram.com" aria-label="Instagram" class="social-link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://linkedin.com" aria-label="LinkedIn" class="social-link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">© 2025 M.D.V. All rights reserved.</p>
+    </footer>
+    <div class="modal" id="videoModal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()"><i class="fa-solid fa-circle-xmark"></i></span>
+            <video controls autoplay>
+                <source src="./cash.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
